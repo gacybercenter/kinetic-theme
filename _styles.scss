@@ -59,7 +59,7 @@ table {
 
 .navbar-brand {
   background-image: url("/static/themes/gcr/img/GCC_Horz_4C.png");
-  background-position: 20px 4px;
+  background-position: 20px -2px;
   background-repeat: no-repeat;
   background-size: 200px;
 
@@ -134,18 +134,13 @@ table {
     }
 
     &:after {
-      background-image: url("/static/themes/gcr/img/gcc_mini.png");
-      background-repeat: no-repeat;
-      background-size: 50px;
-      color: $brand-color;
-      content: "Georgia Cyber Range";
+      background-image: url("/static/themes/gcr/img/GCC_Horz_4C.png");
+      background-size: 500px;
       display: block;
-      font-size: 21px;
-      left: 30px;
-      line-height: 1.7em;
+      left: 0px;
+      top: -10px;
       position: absolute;
-      text-indent: 115px;
-      top: 25px;
+      height: 100px;
       width: 100%;
     }
 
@@ -218,7 +213,7 @@ fieldset[disabled] .btn-primary.focus {
 /* btn-danger overrides */
 .dropdown-menu > li > .btn.btn-danger {
   color: $brand-danger;
-  background-color: $white;
+  background-color: #000000;
 }
 
 .btn-danger, a.btn-danger, a.btn-danger:link, a.btn-danger:visited {
